@@ -1,0 +1,24 @@
+# SQLite version 3.x
+#   gem install sqlite3
+#
+#   Ensure the SQLite 3 gem is defined in your Gemfile
+#   gem 'sqlite3'
+#
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: ntt_development
+
+test:
+  <<: *default
+  database: ntt_test
+
+production:
+  <<: *default
+  database: ntt_production
+  username: ntt
+  password: <%= ENV['NTT_DATABASE_PASSWORD'] %>
