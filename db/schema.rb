@@ -10,9 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20180927084849) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "talks", force: :cascade do |t|
+    t.string "name"
+    t.text "description"
+    t.integer "category"
+    t.integer "place"
+    t.string "speaker"
+    t.datetime "start_time"
+    t.float "duration"
+  end
 
 end

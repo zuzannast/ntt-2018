@@ -1,0 +1,20 @@
+<% @upcoming_talks.each do |group| %>
+  <% group.each do |_name, talk| %>
+    <div class="upcoming-events-group">
+      <h4 class="schedule-header"> <%= talk.place.titleize %> </h4>
+      <div class="event-group-smaller">
+        <div class="event-timeframe">
+          <%= talk.pretty_time %>
+        </div>
+
+        <div class="event-title">
+          <%= talk.name %>
+
+          <div class="event-presenter">
+            <%= talk.speaker %>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+<% end %>

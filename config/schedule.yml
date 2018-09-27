@@ -1,0 +1,153 @@
+- category: general
+  place: lounge
+  start_time: "2018-09-29, 09:00"
+  duration: 30.00
+  name: "Registration"
+  description: "Please register at the front desk and pick up your gifts"
+- category: presentation
+  place: main_stage
+  start_time: "2018-09-29, 09:30"
+  duration: 20.00
+  speaker: Mateusz Czajka
+  name: "Opening Keynote"
+- category: presentation
+  place: main_stage
+  start_time: "2018-09-29, 09:50"
+  duration: 30.00
+  speaker: Krzysztof Przybylski
+  name: "The craftsman mindset: what Steve Jobs, Simon Sinek, and Malcolm Gladwell got wrong"
+  description: "In this short presentation I'd like to explore the idea of craftsmanship - it's roots, values, and characteristics of a successful craftsmen. From painters to shoemakers to software engineers, all great craftsmen share similar mindset that enables them to achieve extraordinary results. Surprisingly, it's contrary to many modern thinkers and challenges poplar notions of passion (Steve Jobs) or starting with why (Simon Sinek). How any of us can apply it to their work to
+                find fulfilment in any type of work and excel professionally? I'll share my experiences and examples from NG projects that prove, that there is a great value in applying the craftsman mindset to our daily work."
+- category: presentation
+  place: main_stage
+  start_time: "2018-09-29, 10:20"
+  duration: 20.00
+  speaker: Maciej Myśliński
+  name: "What I learned during creating my first Open Source library"
+  description: "I always dreamed about creating my own Open-Source library. I always had a lot of excuses, too: I'm not experienced yet, I don't have enough time, I don't have an idea. I bet you are a little bit like me."
+- category: presentation
+  place: main_stage
+  start_time: "2018-09-29, 10:50"
+  duration: 40.00
+  speaker: Mateusz Opala
+  name: "Deep Learning intuitions"
+  description: "Deep Learning is an area of machine learning that has become superior to other techniques recently. Google uses Deep Learning to build self-driving cars, Spotify recommends songs based on Deep Neural Networks and Pinterest leverages those techniques for searching similar images. This is just a tip of iceberg. Knowledge of linear algebra, calculus and statistics is required to fully understand machine learning models. However, in this talk I'll explain what Deep Learning is and
+                how it works without showing any mathematical equation. I'll show intuitions behind core ideas of Deep Learning that should improve your understanding of this subject."
+- category: workshop
+  place: workshop_room_1
+  start_time: "2018-09-29, 11:00"
+  duration: 120.00
+  speaker: Radek Zaleski
+  name: "How to build something without development"
+  description: "Most often mistake developers make is to try... to develop something instead of solving the problem. I would like to do workshops where we take our clients products, deconcstruct them and try to think how we could build them while limiting development."
+- category: workshop
+  place: workshop_room_2
+  start_time: "2018-09-29, 10:30"
+  duration: 150.00
+  speaker: Adam Bolinger
+  name: "From Idea, to Deployment - basic DevOps steps to make application up and running (along with server preparation)"
+  description: "Many of our developers are eager to learn, how we plan the server architecture, prepare servers and finally configure application for deployment.
+                Those workshops would allow them to learn all the basic steps we take every single day.
+                Steps:
+                1. AWS architecture planning based on application requirements
+                2. Terraform basics and configuration of server architecture, along with execution
+                3. Ansible basic steps along with server propagation
+                4. Application deployment configuration, along with initial deployment
+                5. Automating deployment with help of CircleCI."
+- category: presentation
+  place: main_stage
+  start_time: "2018-09-29, 11:40"
+  duration: 20.00
+  speaker: Adam Romański
+  name: "Overcoming the impostor syndrome"
+  description: "Kiedy uczyłem się programowania, przez ponad rok bałem się wysłać jakiekolwiek CV – byłem pewien, że nigdzie się nie dostanę. Wstyd blokował mnie przed podjęciem pracy. Bałem się, że zostanę wyśmiany, że powiedzą mi że się totalnie do tego nie nadaję. CV wysłane do Netguru było jedynym jakie wysłałem. Jakiś czas później wstyd powrócił, kiedy oferowano mi awans na regulara – czy to już czas? Przecież ja nic nie potrafię. Na bank mnie wywalą po miesiącu. Potem podobnie było z vlogiem – marzyłem o zrobieniu czegoś takiego w sieci, a z drugiej strony byłem przekonany, że nie mam absolutnie nic ciekawego do zaoferowania. Więc skąd się wzięło tych kilka tysięcy ludzi na kanale?"
+- category: presentation
+  place: main_stage
+  start_time: "2018-09-29, 12:10"
+  duration: 20.00
+  speaker: Łukasz Ozimek
+  name: "Sensible Developer"
+  description: "The content of this presentation is a merge of one of the Bartek's presentations and my Rails meeting one from the past about all the things that are important for every developer, but are not really code-related. This presentation is about a non-tech approach to dev's duties, some soft skills, mental traps and how to develop and maintain a proper mindset, some tools and resources at the end."
+- category: presentation
+  place: main_stage
+  start_time: "2018-09-29, 12:40"
+  duration: 20.00
+  speaker: Vivek Patel
+  name: "End-to-end testing"
+  description: "Importance of e2e tests and how to write them in modern stack"
+- category: general
+  place: lounge
+  start_time: "2018-09-29, 13:00"
+  duration: 60.00
+  name: Lunch break
+  description:
+- category: presentation
+  place: main_stage
+  start_time: "2018-09-29, 14:00"
+  duration: 30.00
+  speaker: Bartosz Białek
+  name: "How an average designer made a hobby game that's been globally featured by Apple & become Game of the day"
+  description: "Opowiem od A-Z o 2 latach zmagań jak nauczyłem się kodzić w C#, zaprojektowałem, testowałem, releasowałem, promowałem Cotrio. Ciekawa historia o upartości ponad zdrowy rozsądek i efektach które przerosły moje najśmielsze marzenia"
+- category: workshop
+  place: workshop_room_1
+  start_time: "2018-09-29, 14:00"
+  duration: 120.00
+  speaker: Aleksandra Pyta
+  name: "Bringing Scrum back to Developers"
+  description: "Agile and Software Craftsmanship go hand in hand. One tells us how to build the right product (process), the other tells us how to build the product in the right way (tech).
+                In terms of the process the most popular framework is Scrum. Sadly, many Developers don’t see the value in Scrum. It’s considered a topic for Scrum Masters and Project Managers. It’s time to turn it around as Scrum was created by Developers.
+                So how the Developers can make the best use of this framework to work on Software Craftsmanship? Which elements of Scrum are designed for improving tech quality?
+                This workshop will guide you through Agile Manifesto and Scrum framework. With the knowledge about the process,  we’ll see how the elements of Scrum can be used in favour of Software Craftsmanship."
+- category: workshop
+  place: workshop_room_2
+  start_time: "2018-09-29, 14:00"
+  duration: 180.00
+  speaker: Mateusz Opala, Timo Rohner
+  name: Deep Learning with Python
+  description:
+- category: presentation
+  place: main_stage
+  start_time: "2018-09-29, 14:40"
+  duration: 40.00
+  speaker: Karol Wójcik
+  name: "Channel vs Node.js Streams"
+  description: "Through the presentation we gonna dive deep into the channels taken from Golang/Clojure and Node.js streams and talk about their Pros&Cons. Presentation is not only for Node.js developers, because the most of application is written in Clojure/script."
+- category: presentation
+  place: main_stage
+  start_time: "2018-09-29, 15:30"
+  duration: 20.00
+  speaker: Krzysztof Jackowski
+  name: "Leadership in technology. What is it and why it's important?"
+  description: "Software is developing rapidly on a global scale and impacting millions. As software developers, we have enormous power to shape the future world with technology but with this power comes great responsibility. During my presentation, I would like to talk about leadership in terms of everyday work, not a position you held. It's really crucial to have a certain attitude when we code and think about how each and every line of code may impact people using your software.
+                During the presentation, I will show simple mistakes that may have a significant negative social impact such as training face recognition ML model with only Caucasian male photos or implementing super complicated UI resulting triggering Hawaii missile false alarm.
+                As an outcome, I would like to inspire all people who work with software to look at our work with more global and social outlook and strive for excellence for better future. "
+- category: presentation
+  place: main_stage
+  start_time: "2018-09-29, 16:00"
+  duration: 50.00
+  speaker: Adam Nowak, Bartosz Pranczke
+  name: Discussion panel
+  description:
+- category: lightning_talk
+  place: main_stage
+  start_time: "2018-09-29, 17:10"
+  duration: 10.00
+  speaker: Jakub Jakubik
+  name: "SRE - to serve & protect!"
+  description: "A brief summary on what SRE do and how"
+- category: lightning_talk
+  place: main_stage
+  start_time: "2018-09-29, 17:00"
+  duration: 10.00
+  speaker: Maciej Myśliński
+  name: "How async could change our day to day work, improve productivity, and make us happier human beings."
+  description: "I recently read 'Async Remote' book from Arkency.
+                As a remote-first company we don't utilize the full potential of the tools we use, and still the majority of work is getting done in a sync way.
+                In this lightning talk I share my vision of the company and day to day work if we utilize async work style."
+- category: presentation
+  place: main_stage
+  start_time: "2018-09-29, 17:20"
+  duration: 10.00
+  speaker: NTT Team
+  name: "Closing keynote"
+  description: "Quick summary of the first edition of Netguru Tech Talks"

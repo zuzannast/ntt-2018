@@ -1,0 +1,7 @@
+<div class="event-full">
+  <% if @upcoming.lounge? %>
+    <%= render "schedule/upcoming/lounge" %>
+  <% else %>
+    <%= render "schedule/upcoming/talks" %>
+  <% end %>
+</div>

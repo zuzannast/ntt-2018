@@ -11,6 +11,10 @@ body {
   height: 100%;
 }
 
+.schedule-header {
+  color: white;
+}
+
 .event-place-hall {
   min-width: 620px;
   text-align: center;
@@ -46,8 +50,37 @@ body {
   margin-bottom: 20px;
 }
 
+.logo {
+  height: 2em;
+  margin: auto;
+  padding-right: 10px;
+  float: left;
+}
+
+.upcoming-events-group {
+  width: 31%;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.event-group-smaller {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  min-height: 500px;
+  margin-bottom: 20px;
+}
+
 .event-title {
   font-weight: 900;
+  margin: auto;
+  max-width: 400px;
+  padding: 40px;
+}
+
+.upcoming-event-description {
+  font-weight: 400;
   margin: auto;
   max-width: 400px;
   padding: 40px;
